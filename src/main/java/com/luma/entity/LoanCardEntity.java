@@ -42,6 +42,4 @@ public class LoanCardEntity {
 		this.duration_in_years = duration_in_years;
 	}
 	
-	
-
 }

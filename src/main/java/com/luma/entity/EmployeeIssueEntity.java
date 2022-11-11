@@ -31,8 +31,7 @@ public class EmployeeIssueEntity {
 	@Column(name = "issue_date")
     private Date issue_date;
 	
-	@Column(name = "return_date")
-    private Date return_date;
+	
 
 	public Long getIssue_id() {
 		return issue_id;
