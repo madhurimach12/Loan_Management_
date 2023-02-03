@@ -25,7 +25,19 @@ public class EmployeeDtoConverter {
 		employee.setGender(empDto.getGender());
 		return employee;
 	}
-	
+
+	public static EmployeeMasterEntity getEmployeeEntity22(EmployeeDto empDto) {
+		EmployeeMasterEntity employee = new EmployeeMasterEntity();
+		employee.setEmployee_id(empDto.getEmployeeId());
+		employee.setEmployee_name(empDto.getEmployeeName());
+		employee.setPassword(empDto.getPassword());
+		employee.setDepartment(empDto.getDepartment());
+		employee.setDesignation(empDto.getDesignation());
+		employee.setGender(empDto.getGender());
+		return employee;
+	}
 }
+
+
 
 
