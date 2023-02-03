@@ -26,7 +26,9 @@ public class EmployeeDtoConverter {
 		return employee;
 	}
 	
-	public static EmployeeMasterEntity getEmployeeEntity552(EmployeeDto empDto) {
+	public static void getEmployeeEntity552(EmployeeDto empDto) {
+	}
+	public static EmployeeMasterEntity getEmployeeEntity22(EmployeeDto empDto) {
 		EmployeeMasterEntity employee = new EmployeeMasterEntity();
 		employee.setEmployee_id(empDto.getEmployeeId());
 		employee.setEmployee_name(empDto.getEmployeeName());
@@ -37,5 +39,7 @@ public class EmployeeDtoConverter {
 		return employee;
 	}
 }
+
+
 
 
