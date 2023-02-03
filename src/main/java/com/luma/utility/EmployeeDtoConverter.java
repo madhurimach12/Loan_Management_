@@ -28,6 +28,9 @@ public class EmployeeDtoConverter {
 	
 	public static void getEmployeeEntity552(EmployeeDto empDto) {
 	}
+	
+	public static void tHis_IS_NEW(EmployeeDto empDto) {
+	}
 	public static EmployeeMasterEntity getEmployeeEntity22(EmployeeDto empDto) {
 		EmployeeMasterEntity employee = new EmployeeMasterEntity();
 		employee.setEmployee_id(empDto.getEmployeeId());
