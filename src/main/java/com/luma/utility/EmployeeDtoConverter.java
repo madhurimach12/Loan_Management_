@@ -25,7 +25,7 @@ public class EmployeeDtoConverter {
 		employee.setGender(empDto.getGender());
 		return employee;
 	}
-	
+
 	public static EmployeeMasterEntity getEmployeeEntity22(EmployeeDto empDto) {
 		EmployeeMasterEntity employee = new EmployeeMasterEntity();
 		employee.setEmployee_id(empDto.getEmployeeId());
@@ -39,4 +39,5 @@ public class EmployeeDtoConverter {
 }
 
 
-// SUBAPI CHECK
+
+
